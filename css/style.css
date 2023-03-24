@@ -1,0 +1,53 @@
+.header  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_left {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.header_right {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_right_content {
+    margin-right: 40px;
+    list-style: none;
+    font-weight: bold;
+}
+
+
+
+.main_content {
+    margin-top: 400px;
+    margin-bottom: 0;
+    font-size: 60px;
+}
+
+.relative {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.absolute {
+    position: absolute;
+    top: -400px;
+    left: 700px;
+}
+
+.main_blue-box {
+    background-color: #292281;
+    width: 1000px;
+    height: 200px;
+}
+
+
+.main_img  img {
+    width: 750px;
+    height: auto;
+}
